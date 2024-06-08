@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    background-color: #247BA0;
+
+}
+
+#div-sucesso{
+    font-size: 25px;
+    background-color: #EAECE5;
+    border: 0;
+    border-radius: 5px;
+    padding: 100px;
+    margin: 15%;
+}
+
+
+#link-voltar{
+    background-color: #1e9266;
+    color: #EAECE5;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 10px;
+}
