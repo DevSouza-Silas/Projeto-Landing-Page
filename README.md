@@ -1,2 +1,3 @@
-# Projeto-Landing-Page
-Projeto Landing Page, desenvolvido com as tecnologias: HTML, CSS, JavaScript, API SheetMonkey
+# **Projeto Landing Page**
+\*Desenvolvido com as tecnologias:
+\*HTML, CSS, JavaScript, API SheetMonkey
