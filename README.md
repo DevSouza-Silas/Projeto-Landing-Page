@@ -3,4 +3,6 @@
 HTML, 🚀<br>
 CSS, 🚀<br>
 JavaScript, 🚀<br>
-API SheetMonkey 🚀</h4>
+API SheetMonkey 🚀<br>
+Link do projeto em produção: https://landingpagedevsouza.netlify.app
+</h4>
