@@ -25,6 +25,7 @@
 
 #menu-superior{
     background-image: url(/imagens/fundo-menu-superior.svg);
+    background-size: cover;
     color: aliceblue;
 }
 
@@ -137,4 +138,213 @@ button:hover{
     transform: translateY(-7px);
     transition-duration: 0.5s;
     box-shadow: 0px 15px 20px #05103081;
+}
+
+@media (max-width: 700px) {
+    #logo{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #titulo-menu-superior{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #texto-menu-superior{
+        margin-left: 20px;
+        margin-top: 10px;
+        padding-bottom: 50px;
+        width: 70%;
+        height: 50%;
+        text-align: left;
+
+    }
+    #sessao-video{
+        display: grid;
+        grid-auto-flow: row;
+        columns: auto;
+    }
+
+    #menu-informacional{
+        display: grid;
+        grid-auto-flow: row;
+        columns: auto;
+    }
+    #menu-informacional .texto-informativo {
+       width: 90%;
+        height: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #05103081;
+        border: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    #menu-informacional .texto-informativo img {
+        width: 30%;
+        height: 30%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #05103081;
+        border: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #video{
+        margin: 25px 25px 25px 0px;
+        width: 100%;
+        height: 120%;
+        padding: 0px;
+        border-radius: 5px;
+        box-shadow: 0px 15px 20px #05103081;
+        border: 0;
+        background-color: #EAECE5;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #video .texto-informativo {
+        width: 90%;
+        height: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #05103081;
+        border: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    
+    #titulo-video {
+        color: #247BA0;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #05103081;
+        border: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+        height: 30%;
+    }
+    #texto-video {
+        color: #01090c;
+        margin-top: 50px;
+        text-align: justify;
+        font-size: 15px;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #05103081;
+        border: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 70%;
+        height: 10%;
+    }
+    #carrossel{
+        background-color: #247BA0;
+        padding: 50px;
+    }
+    #titulo-carrossel{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #carrossel #div-cards{
+        display: grid;
+    }
+    #div-cards img {
+        border-radius: 0px;
+        border: 0;
+        width: 200%;
+        height: 20%;
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px #05103081;
+    }
+     #div-cards img .seta {
+        display: none;
+        width: 150px;
+        height: 50px;
+    }
+    #formulario{
+        text-align: center;
+    }
+    #titulo-formulario{
+        font-size: 25px;
+        margin: 25px;
+        color: #383838;
+    }
+    #formulario input{
+        font-size: 15px;
+        margin: 25px;
+        color: #383838;
+        width: 50%;
+        height: 50%;
+        background-color: #EAECE5;
+        margin: 10px;
+        border: 0;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+    #formulario button{
+        background-color: #247BA0;
+        height: 40px;
+        width: 200px;
+        color: #EAECE5;
+        border: 0;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
 }
